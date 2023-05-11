@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./img/fundo-abstrato-poli-baixo-laranja-amarelo_1017-32111.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 25%;
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+}
+#lastname{
+    color: red;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover{
+    color: red;
+}
