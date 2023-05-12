@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Main/css/Style.css">
+    <link rel="stylesheet" href="./Main/css/DarkMode.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <title>Utils Features</title>
 </head>
+
 <body>
-    
+    <div class="container mx-auto ">
+        <h1
+            class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+            We invest in the world’s potential</h1>
+        <input type="checkbox" class="checkbox" id="chk">
+
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+
+        <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at
+            Flowbite
+            we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic
+            growth.</p>
+
+        <div class="h-56 grid grid-cols-3 gap-4 content-center ...">
+            <div class="box-border h-32 w-32 p-4 border-4">01</div>
+            <div class="box-border h-32 w-32 p-4 border-4">02</div>
+            <div class="box-border h-32 w-32 p-4 border-4">03</div>
+            <div class="box-border h-32 w-32 p-4 border-4">04</div>
+            <div class="box-border h-32 w-32 p-4 border-4">05</div>
+            <div class="box-border h-32 w-32 p-4 border-4">06</div>
+        </div>
+    </div>
+
+    <script src="./Main/js/DarkMode.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
 </body>
+
 </html>
